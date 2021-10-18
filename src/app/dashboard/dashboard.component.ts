@@ -97,4 +97,46 @@ export class DashboardComponent implements OnInit {
     })
   }
 
+  changecount(short:string){
+    console.log(short);
+      this.ShortUrlService.getAllURL().subscribe((data) => {
+        console.log(data)
+        data.forEach((url)=>{
+          if(url.short===short)
+          { 
+          console.log(url.time.length);
+          for(let i=0;i<url.time.length;i++){
+            console.log(url.time[i].datetime)
+            console.log(this.datetime)
+              if(url.time[i].datetime==this.datetime){
+                console.log("data match")
+                this.count=url.time[i].count++;
+                this.flag=1;
+                break;
+              }
+              
+
+             }
+             if(this.flag==0)
+             {
+              url.time.push({"datetime":this.datetime,"count":1})
+             }
+              let UrlObj={
+              "longURL":url.longURL,
+              "short":url.short,
+              "count":url.count+1,
+              "time":url.time
+            }
+            this.ShortUrlService.updateUrlById(UrlObj,url.id).subscribe((data)=>{
+              console.log(data);
+            })
+
+          }
+        })
+        
+      })
+
+  }
+
+
 }
