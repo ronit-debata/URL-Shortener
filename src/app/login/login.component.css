@@ -1,0 +1,22 @@
+.container{
+    margin-top:-3rem;
+}
+.hello{
+    margin-top:10rem;
+    margin-left: -13rem;
+    color: black;
+    
+}
+.font{
+    font-family: 'Ephesis', cursive;
+    font-weight: 900;
+    font-size: 5rem;
+    margin-left:-4rem;
+    transition: transform .2s;
+}
+.font:hover{
+    transform: scale(1.2);
+}
+.card{
+    background-color: #EEEEEE;
+}

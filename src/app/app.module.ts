@@ -12,6 +12,8 @@ import { RedirectPageComponent } from './redirect-page/redirect-page.component';
 import { StatsComponent } from './stats/stats.component';
 import {NgxChartsModule} from '@swimlane/ngx-charts';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
+import { SignupComponent } from './signup/signup.component';
+import { LoginComponent } from './login/login.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -19,7 +21,9 @@ import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
     TopnavComponent,
     DashboardComponent,
     RedirectPageComponent,
-    StatsComponent
+    StatsComponent,
+    SignupComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
