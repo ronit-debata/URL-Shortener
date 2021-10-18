@@ -1,0 +1,51 @@
+  
+.logo{
+    width:12rem;
+    position:relative;
+    top:-30%;
+}
+.loginbtn{
+    color:#FFFFFF;
+    background-color: #F78812;
+    font-weight:bold ;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.signupbtn{
+    color:#FFFFFF;
+    font-weight:bold ;
+    background-color:#334756;
+}
+.background{
+    width:50rem;
+    z-index: -1;
+    position:fixed;
+    right:-4rem;
+    top: 10rem;
+}
+.container-fluid{
+    margin-top: 100px;
+}
+.bold{
+    font-weight: bold;
+}
+.grey{
+    color: #52616B;
+}
+  a {
+    -webkit-transition: .3s all ease;
+    -o-transition: .3s all ease;
+    transition: .3s all ease; }
+    a, a:hover {
+      text-decoration: none !important; }
+
+.gradient{
+  background:linear-gradient(to right, #30CFD0 0%, #330867 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.tryNow{
+    font-weight:bold ;
+    color:white;
+    cursor:pointer;
+}

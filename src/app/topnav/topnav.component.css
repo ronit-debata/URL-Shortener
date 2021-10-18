@@ -1,0 +1,50 @@
+.logo{
+    position:relative;
+    left: 15px;
+    font-weight: bold;
+    background:linear-gradient(to right, #30CFD0 0%, #330867 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    cursor:pointer;
+}
+.loginbtn{
+    color:#FFFFFF;
+    background-color: #F78812;
+    font-weight:bold ;
+}
+.signupbtn{
+    border: 2px solid #334756;
+    font-weight:bold ;
+    color:#334756;
+}
+.background{
+    width:50rem;
+    z-index: -1;
+    position:fixed;
+    right:-4rem;
+    top: 1rem;
+}
+.bold{
+    font-weight: bold;
+}
+.grey{
+    color: #52616B;
+}
+  a {
+    -webkit-transition: .3s all ease;
+    -o-transition: .3s all ease;
+    transition: .3s all ease; }
+    a, a:hover {
+      text-decoration: none !important; }
+
+.black{
+    color:black
+}
+.pointer{
+    cursor: pointer;
+}
+.tryNow{
+    font-weight:bold ;
+    color:white;
+    cursor:pointer;
+}

@@ -1,0 +1,16 @@
+.container-fluid{
+    padding:2rem;
+}
+.margin{
+    margin-top: -3rem;
+}
+.grey{
+    color:#9D9D9D;
+}
+.orange{
+    color:#F78812;
+    
+}
+.orange-border{
+    border:2px solid #F78812;
+}
